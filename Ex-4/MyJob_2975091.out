@@ -1,0 +1,13 @@
+Number of GPUs on the Node is 1
+--- General Information for device 0----
+Name:  Tesla K80
+Compute capability: 3.7
+GPU Clock rate: 824 MHz
+------Memory Information for device 0
+Total global mem: 11.17 GBytes
+Memory clock rate: 2505 MHz
+Memory bus width: 384-bit 
+L2 cache size: 1572864 Bytes
+Threads and Blocks information for 0 GPU Maximum number of Threads per block 1024
+ Maximum size of each dimension of block 1024 x  1024 x 64
+ Maximum sizes of each dimension of grid 2147483647 x 65535 x 65535
