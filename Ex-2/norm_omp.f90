@@ -2,19 +2,17 @@ program main
     
     use omp_lib
     implicit none
-    integer, parameter :: n = 10000
+    integer, parameter :: n = 1000
     real(kind=8), dimension(n) :: x,y
     real(kind=8) :: norm,norm_thread,ynorm,ynorm_thread
     integer :: nthreads, points_per_thread,thread_num
     integer :: i,istart,iend
-    real(kind=8) :: start_time, stop_time
-    real(kind=8) :: elapsed_time
-    call cpu_time(start_time)
+
     ! Specify number of threads to use:
     ! nthreads = 1       ! need this value in serial mode
-    !$ nthreads = 8 
-    !$ call omp_set_num_threads(nthreads)
-    !$ print "('Using OpenMP with ',i3,' threads')", nthreads
+     nthreads = 8    
+     call omp_set_num_threads(nthreads)
+     print "('Using OpenMP with ',i3,' threads')", nthreads
 
     ! Determine how many points to handle with each thread.
     ! Note that dividing two integers and assigning to an integer will
@@ -79,7 +77,5 @@ program main
 
     print *, "norm of x = ",norm, "  n(n+1)/2 = ",n*(n+1)/2
     print *, 'ynorm should be 1.0:   ynorm = ', ynorm
-    call cpu_time(stop_time)
-    elapsed_time=stop_time - start_time
-    print *, "Elapsed_time: ", elapsed_time, "seconds"
+
 end program main

@@ -1,0 +1,28 @@
+Using OpenMP with   8 threads
+ points_per_thread =          125
+Thread  0 will take i =      1 through i =    125
+Thread  1 will take i =    126 through i =    250
+Thread  3 will take i =    376 through i =    500
+Thread  7 will take i =    876 through i =   1000
+Thread  4 will take i =    501 through i =    625
+Thread  6 will take i =    751 through i =    875
+ norm updated to:    7875.0000000000000     
+ norm updated to:    125125.00000000000     
+Thread  2 will take i =    251 through i =    375
+ norm updated to:    226750.00000000000     
+ norm updated to:    297125.00000000000     
+ norm updated to:    351875.00000000000     
+ norm updated to:    375375.00000000000     
+ norm updated to:    414500.00000000000     
+Thread  5 will take i =    626 through i =    750
+ norm updated to:    500500.00000000000     
+ ynorm updated to:    1.5734265734265732E-002
+ ynorm updated to:   0.21878121878121870     
+ ynorm updated to:   0.39060939060939059     
+ ynorm updated to:   0.62487512487512464     
+ ynorm updated to:   0.70304695304695286     
+ ynorm updated to:   0.84365634365634345     
+ ynorm updated to:   0.89060939060939048     
+ ynorm updated to:   0.99999999999999989     
+ norm of x =    500500.00000000000        n(n+1)/2 =       500500
+ ynorm should be 1.0:   ynorm =   0.99999999999999989     

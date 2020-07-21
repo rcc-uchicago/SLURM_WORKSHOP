@@ -7,7 +7,7 @@
 #SBATCH --error=%x-%j.err
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --qos=stafftest
+#SBATCH --reservation=slurm-workshop
 
 # Run a command
 echo “Preprocessed lots of data”

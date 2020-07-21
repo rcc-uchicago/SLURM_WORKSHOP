@@ -8,7 +8,7 @@
 
 
 #Add partition
-#SBATCH --partition=broadwl-lc
+#SBATCH --partition=broadwl
 
 # Provide index values (TASK IDs)
 #SBATCH --array=1-4
@@ -20,7 +20,7 @@
 # single core
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=2000
-#SBATCH --qos=stafftest
+#SBATCH --reservation=slurm-workshop
 
 # Use the $SLURM_ARRAY_TASK_ID variable to provide different inputs for each job
  

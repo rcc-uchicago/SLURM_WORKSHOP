@@ -5,11 +5,11 @@
 #SBATCH --job-name=Myjob
 #SBATCH --output=Myjob_%j.out
 #SBATCH --error=Myjob_%j.err
-#SBATCH --partition=broadwl-lc
+#SBATCH --partition=broadwl
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=4
 #SBATCH --mem-per-cpu=2000
-#SBATCH --qos=stafftest
+#SBATCH --reservation=slurm-workshop
 
 module load openmpi/3.1.2     
 

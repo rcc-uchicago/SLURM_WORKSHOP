@@ -2,7 +2,7 @@
 
 module load openmpi/3.1.2  
 module load cuda/10.1
-
+module load gcc/7.2.0
 # Compiling the device code
 nvcc -c dev.cu
 #Compiling the host code

@@ -1,0 +1,24 @@
+Hello world from process 0 running on midway2-gpu03.rcc.local of 8
+Hello world from process 2 running on midway2-gpu03.rcc.local of 8
+Hello world from process 3 running on midway2-gpu03.rcc.local of 8
+Hello world from process 1 running on midway2-gpu03.rcc.local of 8
+Hello world from process 4 running on midway2-gpu04.rcc.local of 8
+Hello world from process 5 running on midway2-gpu04.rcc.local of 8
+Hello world from process 6 running on midway2-gpu04.rcc.local of 8
+Hello world from process 7 running on midway2-gpu04.rcc.local of 8
+rank 0, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 4, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 5, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 7, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 2, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 1, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 6, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 0, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 3, dev 0, prop Tesla K80, pci 8, 0, 0
+rank 4, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 5, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 7, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 6, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 2, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 1, dev 1, prop Tesla K80, pci 9, 0, 0
+rank 3, dev 1, prop Tesla K80, pci 9, 0, 0

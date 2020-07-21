@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 #SBATCH --job-name=hybrid
 #SBATCH --output=hybrid_%j.out
 #SBATCH --error=hybrid_%j.err
@@ -8,8 +6,8 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=8
 #SBATCH --partition=broadwl
-#SBATCH --constraint=edr
-#SBATCH --qos=stafftest
+##SBATCH --constraint=edr
+#SBATCH --reservation=slurm-workshop
 
 # Load the default OpenMPI module.
 module load openmpi
