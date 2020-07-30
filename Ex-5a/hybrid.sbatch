@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --partition=broadwl
 ##SBATCH --constraint=edr
-#SBATCH --reservation=slurm-workshop
 
 # Load the default OpenMPI module.
 module load openmpi
