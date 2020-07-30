@@ -1,3 +1,4 @@
+nvcc -o deviceQ -arch=sm_30 -O3 --use_fast_math deviceQuery.cu
 Number of GPUs on the Node is 1
 --- General Information for device 0----
 Name:  Tesla K80

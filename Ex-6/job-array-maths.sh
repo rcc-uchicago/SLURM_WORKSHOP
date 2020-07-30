@@ -20,7 +20,6 @@
 # single core
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=2000
-#SBATCH --reservation=slurm-workshop
 
 # Use the $SLURM_ARRAY_TASK_ID variable to provide different inputs for each job
  

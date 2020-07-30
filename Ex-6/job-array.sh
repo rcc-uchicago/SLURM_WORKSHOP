@@ -19,7 +19,6 @@
 # single core
 #SBATCH -c 1
 
-#SBATCH --reservation=slurm-workshop
 
 # Use the $SLURM_ARRAY_TASK_ID variable to provide different inputs for each job
  

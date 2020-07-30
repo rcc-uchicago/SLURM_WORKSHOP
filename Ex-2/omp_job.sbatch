@@ -11,9 +11,10 @@
 #SBATCH --ntasks-per-node=10
 #SBATCH --mem=16000  #Per Node
 ##SBATCH --mem-per-cpu=2000 #Per CPU
-#SBATCH --reservation=slurm-workshop
 
-#module load gcc/9.2.0
+module load gcc/9.2.0
+make -f Makefile
+
 export OMP_NUM_THREADS=8 
 #Run your code
 ./norm_prog 

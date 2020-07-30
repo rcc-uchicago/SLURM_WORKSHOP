@@ -5,7 +5,6 @@
 #SBATCH --error=%x-%j.err
 #SBATCH --mem=1G
 #SBATCH --nodes=1
-#SBATCH --reservation=slurm-workshop
 
 # Run a command
 echo "Lots of lovely science"

@@ -9,9 +9,9 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=4
 #SBATCH --mem-per-cpu=2000
-#SBATCH --reservation=slurm-workshop
 
 module load openmpi/3.1.2     
+make -f Makefile
 
 #Run your code
 mpirun  ./mpi_prog 

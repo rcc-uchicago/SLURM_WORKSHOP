@@ -13,5 +13,7 @@
 #SBATCH --qos=stafftest
 
 module load cuda/10.1
+make -f Makefile
+
 ./deviceQ
 

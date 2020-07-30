@@ -6,7 +6,6 @@
 #SBATCH --output=%x-%j.out
 #SBATCH --error=%x-%j.err
 #SBATCH --nodes=1
-#SBATCH --reservation=slurm-workshop
 
 # Run a command
 echo “Doing some postprocessing”

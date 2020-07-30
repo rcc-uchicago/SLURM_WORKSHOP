@@ -4,7 +4,6 @@
 #SBATCH --partition=broadwl
 #SBATCH --ntasks=28
 #SBATCH --mem-per-cpu=2G  # NOTE DO NOT USE THE --mem= OPTION 
-#SBATCH --reservation=slurm-workshop
 # Load the default version of GNU parallel.
 module load parallel
 
